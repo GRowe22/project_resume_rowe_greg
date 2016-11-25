@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: 'Rubik One', sans-serif;
     color: #0e264b;
@@ -13,5 +17,52 @@ a {
 
 h2 {
     font-family: 'Open Sans', sans-serif;
+    color: #0e264b;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.site-container {
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #e4e4e4;
+    padding-bottom: 2em;
+}
+
+header,
+section {
+    padding: 1em 1em 0.25em 1em;
+    background-color: #f2f2f2;
+}
+
+#resume-photo {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#photo {
+    padding: 2em;
+    background-color: #e4e4e4;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+#subheading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
     color: #0e264b;
 }
