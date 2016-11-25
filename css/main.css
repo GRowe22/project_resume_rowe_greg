@@ -3,8 +3,15 @@ h1 {
     color: #0e264b;
 }
 
-p {
+p,
+ul,
+a {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     color: #5f5f5f;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #0e264b;
 }
