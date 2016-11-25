@@ -5,3 +5,10 @@ $('#name').fitText();
 $(document).ready(function () {
     $('.tooltip').tooltipster();
 });
+
+//jQuery to change the color of heading when clicked
+$(document).ready(function () {
+    $('h1').click(function () {
+        $('h1').css('color', '#5f5f5f');
+    });
+});
